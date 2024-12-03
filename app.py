@@ -28,10 +28,10 @@ with open('tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 # Antarmuka Streamlit
-st.title('IMDB Sentiment Analyisis using LSTM')
+st.title('Analisis Sentimen Review Film menggunakan LSTM dalam Bahasa Inggris')
 st.write('Enter an example')
 
-input_text = st.text_area('Tulis pesan di sini')
+input_text = st.text_area('Tulis review di sini')
 
 if st.button('Prediksi'):
     # Memproses teks input menggunakan Tokenizer yang sudah dilatih
