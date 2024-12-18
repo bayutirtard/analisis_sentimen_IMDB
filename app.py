@@ -29,7 +29,6 @@ with open('tokenizer.pickle', 'rb') as handle:
 
 # Antarmuka Streamlit
 st.title('Analisis Sentimen Review Film menggunakan LSTM dalam Bahasa Inggris')
-st.write('Enter an example')
 
 input_text = st.text_area('Tulis review di sini')
 
